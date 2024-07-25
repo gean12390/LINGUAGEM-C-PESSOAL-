@@ -24,6 +24,13 @@ int main() {
     scanf("%s", p2);
 
 
+    for (int i = 0; i < 4; i++) {
+        p1[i] = toupper(p1[i]);
+    }
+        for (int i = 0; i < 4; i++) {
+        p2[i] = toupper(p2[i]);
+    }
+    
     printf("%s x %s\n", p1, p2);
 
     srand(time(0));
