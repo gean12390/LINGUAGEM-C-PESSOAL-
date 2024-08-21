@@ -15,7 +15,6 @@
     system("cls");
     
     for (i; i <= cron; i++) {
-         printf("\033]50;SetProfile=1\007");
         printf("\n \t %d \n", temp);
         temp++;
         Sleep(1000); 
